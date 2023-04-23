@@ -1,0 +1,37 @@
+.advertising {
+    display: grid;
+    grid-template-columns: var(--grid-container);
+
+    &__inner {
+        grid-column: inner;
+        background-image: 
+            url(./assets/Arrow-right.svg),
+            url(./assets/blue-triangle.svg),
+            url(./assets/Dark-filter-advertising.png),
+            url(./assets/img-advertising.png);
+        background-repeat: no-repeat;
+        background-size: auto, auto, cover, cover;
+        background-position: 99% 96%, right bottom, left top, left top;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: var(--gap-l);
+        margin: 2.55rem 0 6.25rem 0;
+    }
+
+    &__title {
+        color: var(--color-light);
+        font-size: 88px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    &__text {
+        color: var(--color-light-opacity-82);
+        font-size: 39px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+}

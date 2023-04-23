@@ -1,0 +1,53 @@
+:root {
+
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0.75 );
+    
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-s: 1rem;
+
+    --border-radius: 0px;
+
+    
+    --color-dark: #3f4a53;
+    --color-dark-50: #2b3135;
+    --color-dark-100: #707070;
+    --color-dark-opacity-07: hsla(207, 14%, 29%, 0.07);
+    --color-dark-opacity-64: hsla(207, 14%, 29%, 0.64);
+    --color-dark-opacity-80: hsla(207, 14%, 29%, 0.80);
+
+    --color-accent-orange: #fd3e1d;
+    --color-accent-orange-100: #e7472b;
+    
+    --color-accent-blue: #0584ff;
+    --color-accent-blue-100: #2087ee;
+    --color-accent-blue-opacity-64: hsla(210, 100%, 51%, 0.64);
+    
+    --color-light: #fff;
+    --color-light-opacity-07: hsla(0, 0%, 100%, 0.07);
+    --color-light-opacity-21: hsla(0, 0%, 100%, 0.21);
+    --color-light-opacity-42: hsla(0, 0%, 100%, 0.42);
+    --color-light-opacity-53: hsla(0, 0%, 100%, 0.53);
+    --color-light-opacity-82: hsla(0, 0%, 100%, 0.82);
+   
+
+    --font-text: "industry", sans-serif;
+    --font-main: "abolition", sans-serif;
+
+    --line-height: 1.5;
+
+    --font-scale: 1.25;
+    --font-size: 1.125rem;
+
+    --font-size-1: var(--font-size);
+    --font-size-2: calc( var(--font-size-1) * var(--font-scale));
+    --font-size-3: calc( var(--font-size-2) * var(--font-scale));
+    --font-size-4: calc( var(--font-size-3) * var(--font-scale));  
+    --font-size-5: calc( var(--font-size-4) * var(--font-scale));  
+    --font-size-6: calc( var(--font-size-5) * var(--font-scale));  
+
+    --page-width: 80rem;
+    --grid-container: [full-start] minmax(5rem, 1fr) [inner-start] minmax(0, var(--page-width)) [inner-end] minmax(5rem, 1fr) [full-end];
+}
